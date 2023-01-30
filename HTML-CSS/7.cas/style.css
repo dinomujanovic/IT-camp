@@ -1,0 +1,43 @@
+body {
+  background-color: aquamarine;
+}
+/* ako hocemo da promenimo boju celog website-a unosimo je u body tagu */
+/* kada unosimo klasu pre toga mora stajati tacka */
+.first {
+  background-color: rgb(237, 252, 100);
+  /* text-align: center; */
+}
+/* id ima prioritet u odnosu na klasu */
+/* id se obicno koristi kada zelimo da se primeni samo jednom u nekom tagu */
+/* kada unosimo id pre toga moramo uneti # */
+#first-id {
+  background-color: darkolivegreen;
+}
+.first h1 {
+  text-align: center;
+}
+.first p {
+  text-align: right;
+  text-align: justify;
+  /* text-align: justify koristimo kada hocemo da su nam redovi poravnati sa obe strane */
+
+  /* text-indent unosimo kada hocemo da nam prvi red pocinje malo odvojeno od drugog reda */
+  text-indent: 30px;
+  text-align-last: right;
+  /* tect-align-last unosimo kada hocemo da nam zadnja recenica pocinje sa desne/leve strane */
+  /* text-transform: none; je defaultna vrednost i nece nista da se promeni */
+  /* text-transform: capitalize; svaka rec pocinje velikim slovom*/
+  /* text-transform: uppercase; stavice sva slova da budu velika */
+  /* text-transform: lowercase; stavice da su sva slova mala */
+}
+.second {
+  background-color: chartreuse;
+  text-align: justify;
+}
+.second:nth-of-type(2) h1 {
+  text-align: right;
+}
+
+.second:nth-of-type(3) h1 {
+  text-align: left;
+}

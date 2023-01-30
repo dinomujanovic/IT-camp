@@ -1,0 +1,33 @@
+body {
+  background-color: hsla(56, 85%, 75%, 0.689);
+  margin: 0px;
+}
+h1 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  text-shadow: 3px 3px 3px hsla(11, 96%, 45%, 0.665);
+}
+.main {
+  padding: 15px;
+  background-color: #e8ff93;
+  height: 500px;
+  width: 1000px;
+  margin: auto;
+  border: 0px solid rgb(200, 0, 0);
+  border-radius: 30px;
+  text-align: center;
+  background-color: rgba(151, 108, 58, 0.72);
+  box-shadow: 6px 6px 16px rgb(100, 22, 0);
+  background-image: url(./original2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 400px 400px;
+  background-position: bottom;
+  background-position-x: left;
+  font-weight: bold;
+}
+
+.main h3 {
+  text-transform: uppercase;
+  border-bottom: 3px solid hsla(19, 69%, 47%, 0.763);
+}

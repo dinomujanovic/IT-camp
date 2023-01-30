@@ -1,0 +1,43 @@
+/* CSS BOX model je box koji okruzuje svaki HTML element */
+body {
+  margin: 0;
+  background-color: #8bdfdf;
+}
+
+.main {
+  /* ako hocemo da promenimo prozirnost unutar background-color pored rgb unosimo a i pisemo vrednost */
+  background-color: rgba(194, 27, 5, 0.8);
+  /*  Opacity svojstvo daje prozirnost nasem elemntu */
+  /* opacity: 0.5; */
+  width: 500px;
+  height: 400px;
+  /* definisanje margine za sve strane */
+  /* margin: 100px; */
+  /* definisanje margine za svaku stranu posebno */
+  /* margin-top: 100px; */
+  /* margin-right: 100px; */
+  /* margin-bottom: 50px; */
+  /* margin-left: 100px; */
+  /* definisanje preko margin, gde dodeljujemo vise vrednosti */
+  /* margin: 50px 100px 60px 40px; */
+  /* margin auto sluzi da podjednako odbije element sa leve i desne strane */
+  /* margin: auto; */
+  /* margin: 40px auto; */
+  margin: 60px auto 0;
+  /* solid je za obicnu liniju bordera */
+  /* border: 3px solid rgb(197, 254, 27); */
+  /* double je za duppliranu liniju boldera */
+  /* border: 3px double rgb(197, 254, 27); */
+  /* dotted daje isprekidanu liniju */
+  /* border: 3px dotted rgb(197, 254, 27); */
+  border: 3px outset rgb(197, 254, 27);
+  /* ako hocemo da zaoblimo ivice koristimo border-radius */
+  border-radius: 20px;
+
+  padding: 15px;
+}
+/* hover koristimo ako hocemo da promenimo stil nekog paragrafa prelaskom misa preko njega */
+.main p:hover {
+  background-color: aquamarine;
+  font-size: 24px;
+}

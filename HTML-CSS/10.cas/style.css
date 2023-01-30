@@ -1,0 +1,39 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: aquamarine;
+}
+
+.first {
+  /* background-color: chartreuse; */
+  height: 300px;
+  /* ako hocemo da dodamo sliku kao pozadinu unutar background-image unosimo url */
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBm1LZW8clZL7-bqiUAs9qO3dFF8aMZmmT-w&usqp=CAU);
+  background-repeat: no-repeat;
+  /* background-size: 400px 200px; prva vrednost se odnosi na sirinu druga na visinu pozadine */
+  /* background-size: 100% 100%; */
+  /* background-size: cover; ce da nam razvuce i isece sliku */
+  background-size: contain;
+  /* contain koristimo kada hocemo da popunimo prostor sa slikom ali bez razvlacenja */
+}
+ul {
+  text-align: center;
+  width: 500px;
+  /* lista stile position koristimo kada hocemo da stavimo tackice unutar */
+  list-style-position: inside;
+}
+/* odd koristimo za neparne brojeve */
+li:nth-of-type(odd) {
+  background-color: rgb(24, 20, 59);
+}
+/* even koristimo za neparne brojeve */
+li:nth-of-type(even) {
+  background-color: rgb(35, 59, 20);
+}
+/* ako hocemo da primenimo stil samo na zadnji */
+li:nth-last-child(1) {
+  background-color: coral;
+}

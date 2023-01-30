@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Karate klub Šampion</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>KARATE KLUB ŠAMPION</h1>
+    <div class="main">
+      <h3>Ako zelis da postanes nas clan unesite sledece podatke:</h3>
+
+      <form action="./original2.png">
+        <label for="name">Ime i prezime:</label>
+        <input type="text" name="name" id="name" placeholder="Ime" />
+        <input type="text" name="name" id="name" placeholder="Prezime" />
+        <br />
+        <br />
+        <label for="email">Email:</label>
+        <input type="username" name="email" id="email" placeholder="username" />
+        <br />
+        <br />
+        <label for="number">Koliko imate godina:</label>
+        <input type="number" name="number" id="number" min="3" max="40" />
+        <br />
+        <br />
+        <label for="select">Unesite nivo vase utreniranosti:</label>
+        <select name="select" id="select">
+          <option value="pocetnik" selected>Pocetnik</option>
+          <option value="pocetni nivo">Pocetni nivo</option>
+          <option value="napredan">Napredan nivo</option>
+          <option value="takmicar">Takmicar</option>
+        </select>
+        <br />
+        <br />
+        <p>Izaberite mesto gde zelite trenirati:</p>
+        <label for="dunp">Drzavni univeritet u Novom Pazaru</label>
+        <input type="checkbox" name="dunp" id="dunp" />
+        <br />
+        <label for="trso">Rifat Burdzovic Trso</label>
+        <input type="checkbox" name="trso" id="trso" />
+        <br />
+        <br />
+        <label for="interesovanje">Sta vas interesuje:</label>
+        <select name="interesovanje" id="interesovanje">
+          <option value="borbe">borbe</option>
+          <option value="kate">kate</option>
+        </select>
+        <br />
+        <br />
+        <p>Hocete li da nas preporucite prijateljima:</p>
+
+        <label for="da">Da</label>
+        <input type="radio" name="friend" id="friend" />
+        <br />
+        <label for="ne">Ne</label>
+        <input type="radio" name="friend" id="friend" />
+        <br />
+        <label for="mozda">Mozda</label>
+        <input type="radio" name="friend" id="friend" />
+      </form>
+    </div>
+  </body>
+</html>

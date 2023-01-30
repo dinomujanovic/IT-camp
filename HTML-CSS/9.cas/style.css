@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  background-color: rgb(255, 224, 140);
+}
+
+.main {
+  width: 400px;
+  height: 600px;
+  background-color: rgb(158, 31, 28);
+  margin: 30px auto;
+  border-radius: 30px;
+  border: 2px outset rgb(169, 34, 10);
+  box-shadow: 6px 6px 12px rgba(0, 1, 44, 0.6);
+  /* display: block;block level elementi imaju defaultnu vrednost block */
+  /* display inline-block stavljamo kada hocemo da omogucimo kontejnerima da se redjaju jedan do drugog */
+  display: inline-block;
+  margin: 20px;
+}
+/* HTML ELEMENTS: */
+/* 1. block level elements: */
+/* 1.1 div, heade, section, main, footer */
+/* 1.2 p */
+/* 1.3 h1-h6 */
+/* 1.4 ul,ol,li */
+
+/* 2. Inline elements: */
+/* 2.1 span */
+/* 2.2 a */
+/* 2.3 img */
+/* 2.4 button */
+/* 2.5 input*/
+/* 2.6 textarea*/
+
+.second img {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.third h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+.third h4 {
+  text-transform: capitalize;
+  text-align: justify;
+}
+
+.third {
+  padding: 15px;
+}
+.third p {
+  text-align: justify;
+  text-align-last: right;
+  text-indent: 50px;
+}
+.third p:hover {
+  background-color: rgb(225, 224, 140);
+}
+.second img:hover {
+  content: url(../domaci/original2.png);
+}
+
+.main:nth-of-type(2) {
+  display: none;
+  /* visibility: hidden; ne koristimo cesto zato sto je rezervisano mesto na stranici za taj element*/
+}

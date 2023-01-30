@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>forme</title>
+  </head>
+  <body>
+    <h1>Forme u HTML</h1>
+    <!-- Forme koristimo za izbor razliciih vrsta korisnickog unosa podatka. -->
+    <!-- koriste se za dostavljanje podataka serveru -->
+    <!-- u html atributu action stavljamo link na koji ce nas povesti kada potvrdimo -->
+    <form action="./index1.html" target="_blank">
+      <!-- label prestavlja opis odredjene forme -->
+      <label for="username">Unesite vas username:</label>
+      <!-- najvazniji element forme je input -->
+      <!-- input element moze biti okvir za unos teksta, poruke, polja potvrde... -->
+      <!-- input elemen je linijski element sto znaci kada zelimo prelazak u novi red potrebno je iza njega staviti <b/> tag on je samozatvarajuci -->
+      <input
+        type="text"
+        name="username"
+        id="username"
+        placeholder="username"
+        value="ja sam"
+      />
+      <!-- html atribut type sluzi za svojstvo koje cemo dodeliti formi, moze biti text, password, email, number... -->
+      <!-- u name pisemo naziv forme -->
+      <!-- id i for atribut moraju biti isti -->
+      <!-- placeholder koristimo kada hocemo da nam u polju stoji npr username koji ce se brisati kada pisemo tekst -->
+      <!-- required koristimo kada hocemo da stavimo obavezno polje -->
+      <!-- sve ovo pisemo u inputu -->
+      <br />
+      <br />
+      <label for="email"> Unesite vasu email adresu</label>
+      <input type="email" name="email adresa" id="email" required />
+      <br />
+      <br />
+      <label for="password">Unesite vasu lozinku</label>
+      <input type="password" name="lozinka" id="password" />
+      <br />
+      <br />
+      <label for="godine">Unesite svoju starost</label>
+      <!-- za type number step html atribut oznacava za koliko ce godina da nam ide lista, npr svaka druga -->
+      <!-- min za minimalno godina, max za maksimalno godina -->
+      <input
+        type="number"
+        name="broj godina"
+        id="godine"
+        step="2"
+        min="18"
+        max="120"
+      />
+      <br />
+      <br />
+      <label for="datum">unesite datum rodjenja</label>
+      <!-- za type date isto mozemo uneti min i max -->
+      <input
+        type="date"
+        name="datum"
+        id="datum"
+        min="1900-01-01"
+        max="2020-01-01"
+      />
+      <br />
+      <br />
+      <p>odaberite nekoliko stavki:</p>
+      <!-- checkbox omogucava ukljucivanje polja -->
+      <label for="banana">banana</label>
+      <input type="checkbox" name="banana" id="banana" />
+      <br />
+      <br />
+      <label for="jagoda">jagoda</label>
+      <!-- checked stavljamo kada hocemo da cekiramo polje unapred -->
+      <input type="checkbox" name="jagoda" id="jagoda" checked disabled />
+      <!-- checked disable stavljamo kada hocemo da na bude onemoguceno cekiranje -->
+      <br />
+      <br />
+      <!-- moramo da stavimo isti naziv za name da bi nam cekirao samo jedno polje -->
+      <p>Odaberite pol:</p>
+      <label for="male">Male</label>
+      <input type="radio" name="Gender" id="male" value="male" />
+      <br />
+      <br />
+      <label for="female">Female</label>
+      <input type="radio" name="Gender" id="female" value="female" />
+      <br />
+      <br />
+      <!-- ako hocemo da nam se otvori opadajuca lista stavljamo tag select -->
+      <!-- unutar taga select otvaramo tag option i u atributu value unosimo sta zelimo da nam pise -->
+
+      <label for="eye color">Eye color</label>
+      <select name="eye color" id="eye color">
+        <option value="brown">Brown</option>
+        <option value="green">Green</option>
+        <option value="blue" selected>Blue</option>
+        <!-- selected koristimo kada hocemo da stavimo tu rec da nam stoji prva na listi -->
+      </select>
+      <br />
+      <br />
+      <label for="biografija">Ispisite vasu biografiju:</label>
+      <br />
+      <!-- textarea tag koristimo kada hocemo da napravio polje za text -->
+      <!-- mozemo da stavimo maxlength ako hocemo da ga ogranicimo sa recima -->
+      <textarea
+        name="biografija"
+        id="biografija"
+        cols="30"
+        rows="10"
+        maxlength="50"
+      >
+Moje ime je...
+    </textarea
+      >
+      <br />
+      <br />
+      <label for="phone">Unesite broj telefona:</label>
+      <input type="tel" name="phone" id="phone" />
+      <br />
+      <br />
+      <label for="color">vasa omiljena boja</label>
+      <input type="color" name="color" id="color" />
+      <br />
+      <br />
+      <!-- button tag namenjen je za stvaranje dugmadi -->
+      <!-- type reset html tag stavljamo kada hocemo da nam resetuje unete podatke -->
+      <!-- type submit stavljamo kada hocemo da potvrdimo unete podatke i on ce nas povesti na stranicu koju smo stavili na pocetku forme u action atributu -->
+      <button type="reset">RESETUJ</button>
+      <button type="submit">POTVRDI</button>
+    </form>
+  </body>
+</html>

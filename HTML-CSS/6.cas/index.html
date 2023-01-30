@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Styles</title>
+    <style>
+      /* CSS selector je pravilo u CSS pomocu kojeg pristupamo nekom HTML tagu */
+      /* Primena stilova za svaki div tag u nasem HTML dokumentu */
+      /* kada hocemo da primenimo stilove unutar head kucamo tag style */
+      /* unutar taga stile pisemo na kojem cemo kontejneru zeleti da nam se primeni stil i stavljamo zagrade{} */
+      /* div { */
+      /* kada unosimo klasu u ovom slucaju main pre naziva mora stoja tacka */
+      .main {
+        color: brown;
+        background-color: aquamarine;
+        width: 400px;
+        height: 400px;
+        /* overflow svojstvo sluzi za dodavanje scrollbar-a kada sadrzaj unutar kontejnera sahteva vise prostora */
+        /* overflow: visible; */
+        /* overflow: scroll; */
+        /* overflow: hidden; */
+        overflow: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- unutar kontejnera stavljamo klasu pomocu koje cemo odrediti na kojem cemo tagu primeniti stil -->
+    <!-- naziv klase mozemo da napisemo bilo sta po zelji -->
+    <div class="main">
+      <h1>Krecemo sa stilovima</h1>
+      <p>
+        CSS(Cascading style sheets) je jezik koji koristimo za stilizovanje HTML
+        dokumenta
+      </p>
+      <!-- boju fonta menjamo tako sto unutar taga dodamo color -->
+      <!-- menjamo pozadinu kada unutar taga dodamo background-color -->
+      <!-- oba atributa moraju biti pod istim navodnicima -->
+      <p style="color: rgb(151, 88, 0); background-color: aquamarine">
+        CSS mozemo primeniti na tri nacina:
+      </p>
+      <ol>
+        <!-- inline css koristimo kada hocemo da primenimo stil samo u odredjenom tagu -->
+        <!-- unutar taga head stavljamo stil kada hocemo da promenimo stil celog kontejnera -->
+        <li>inline css</li>
+        <li>stavljanjem style taga unutar head</li>
+        <li>eksterni css</li>
+      </ol>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam
+        perferendis ex id praesentium ratione unde optio eveniet, laboriosam rem
+        illum eaque nemo veritatis? Maiores quos dolore eum asperiores.
+        Temporibus eum laborum eveniet vero obcaecati sint rerum, pariatur
+        deleniti? Repudiandae ipsum veniam reprehenderit dolore, quas laudantium
+        soluta nam cumque nisi suscipit? Assumenda vero dolores sed consectetur
+        maiores porro eveniet corporis? Accusamus, magnam debitis. Velit illo
+        harum eveniet! Rem ea laboriosam quam, debitis maxime est tenetur. Rem
+        doloremque veritatis sunt accusamus obcaecati voluptatum quibusdam a,
+        doloribus sint, aliquid autem dolorum adipisci et ex? Provident dolorum
+        iste excepturi, corporis suscipit maxime! Iste, impedit.
+      </p>
+    </div>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. At repudiandae,
+      illo vero distinctio adipisci ipsum voluptatem eius ipsa maiores. Tempora
+      culpa obcaecati fuga nobis ratione et consequuntur? Itaque dolor animi
+      quia, enim molestias soluta, quae eum non deleniti ipsum aspernatur.
+    </p>
+    <div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum in
+        voluptatem, quam recusandae, laudantium quisquam sit suscipit,
+        voluptatum fugit est provident? Dolorem aliquam numquam labore sint.
+        Aliquam tempora dolorem nam nulla. Molestiae nemo quis praesentium et
+        porro incidunt totam iure, nisi, omnis blanditiis, veniam illo sed
+        beatae laudantium non nobis! Alias, illo recusandae corporis optio sed,
+        ut beatae suscipit impedit assumenda, numquam hic. Quisquam libero
+        numquam ab. Rem veniam ratione doloribus esse. Nesciunt iusto quis
+        asperiores sed debitis hic nostrum facere sequi consectetur est?
+        Obcaecati ipsa sapiente, atque pariatur harum repellat repudiandae alias
+        debitis deleniti, illo autem, maiores magnam necessitatibus eaque magni
+        sunt quis? Impedit quis eveniet non, deleniti ab ad sint laudantium vel
+        earum corrupti eos modi suscipit quia veritatis nemo ratione aut
+        voluptatem amet omnis hic distinctio temporibus alias? Illo aspernatur
+        non quos nemo, tempore necessitatibus neque natus?
+      </p>
+    </div>
+  </body>
+</html>
