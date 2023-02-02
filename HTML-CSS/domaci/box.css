@@ -1,11 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 * {
   margin: 0px;
   box-sizing: border-box;
 }
 body {
   background-color: #efe898d9;
+  font-family: roboto;
 }
-
+.icon {
+  color: chartreuse;
+}
+.contact {
+  color: chartreuse;
+}
+.results {
+  color: chartreuse;
+}
+.history {
+  color: chartreuse;
+}
+.phone {
+  color: rgb(4, 4, 118);
+}
+.location {
+  color: brown;
+}
+.first p {
+  text-align: left;
+}
 header {
   height: 120px;
   background-color: rgba(153, 96, 16, 0.81);
@@ -30,7 +52,7 @@ img {
 }
 
 header span:nth-of-type(1) {
-  margin-left: 700px;
+  margin-left: 600px;
 }
 header span {
   margin: 50px 20px;
@@ -59,7 +81,7 @@ p {
   width: 250px;
   height: 250px;
   background-color: rgb(9, 98, 76);
-  margin: 70px 30px 30px 50px;
+  margin: 50px 30px 30px 50px;
   color: rgb(3, 6, 8);
   display: inline-block;
   text-align: center;
@@ -74,9 +96,9 @@ p {
 
 .first span {
   text-align: justify;
-
+  line-height: 17px;
   display: flex;
-  padding: 50px 20px 20px 20px;
+  padding: 30px 20px 20px 20px;
 }
 
 .first:nth-of-type(2) {
