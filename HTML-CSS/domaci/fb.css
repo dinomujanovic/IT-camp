@@ -7,7 +7,7 @@ body {
 }
 
 .header {
-  background-color: rgb(69, 69, 215);
+  background-color: rgba(0, 0, 104, 0.711);
   height: 70px;
   display: flex;
 }
@@ -26,10 +26,10 @@ i {
 }
 
 .login {
-  height: 300px;
+  height: 350px;
   width: 400px;
-  background-color: rgb(69, 69, 215);
-  margin: 130px 800px;
+  background-color: rgba(0, 0, 104, 0.711);
+  margin: 100px 800px;
   border-radius: 10px;
   box-shadow: 10px 10px 10px gray;
 }
@@ -59,9 +59,22 @@ i {
   font-size: large;
   text-transform: uppercase;
 }
-p {
+.login p {
   text-align: center;
   color: rgb(124, 207, 237);
   margin-top: 10px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+hr {
+  margin: 20px;
+}
+#new {
+  height: 50px;
+  width: 200px;
+  margin-left: 100px;
+  border-radius: 10px;
+  border-style: none;
+  background-color: rgb(3, 167, 36);
+  color: aliceblue;
+  font-size: large;
 }
