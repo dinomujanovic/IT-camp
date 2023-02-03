@@ -31,8 +31,10 @@ i {
   background-color: rgba(0, 0, 104, 0.711);
   margin: 100px 800px;
   border-radius: 10px;
+  display: inline-block;
   box-shadow: 10px 10px 10px gray;
 }
+
 #email {
   margin-left: 20px;
   margin-top: 20px;

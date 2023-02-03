@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: orbitron;
+  background-color: darkolivegreen;
+}
+.parent {
+  background-color: rgba(0, 100, 0, 0.693);
+  height: 400px;
+  width: 600px;
+  /* width: 60vw; - 60% u odnosu na sirinu ekrana bez obzira na velicinu*/
+  margin: 40px auto 30px;
+}
+.child {
+  background-color: chartreuse;
+  margin: 40px auto 30px;
+}
+
+/* U CSS-u imamo apsolutne i relativne velicine  */
+
+/* 1. Absolute lengths  */
+
+/* cm - centimetri */
+/* mm - milimetri */
+/* in - inches (1in=96px) */
+/* px - pixels */
+/* pt - points */
+/* pc - picas (1pc=12pt */
+
+/* 2. Relative lengths */
+
+/* em - relativna u odnosu na font-size njenog parenta */
+/* rem - relativna u odnosu na root element. Ne nasledjuje od parenta, nego od celog body */
+/* vw - viewport of the width. Relativan za 1% u odnosu na sirinu ekrana */
+/* vh - viewport of the height. Relativan za 1% u odnosu na visinu ekrana */
+/* vmin - Relativan za 1% u odnosu na manju dimenziju */
+/* vmax - Relativan za 1% u odnosu na vecu dimenziju */
+/* % - Relativan za 1% u odnosu na svog parenta */

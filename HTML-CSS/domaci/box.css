@@ -8,16 +8,16 @@ body {
   font-family: roboto;
 }
 .icon {
-  color: chartreuse;
+  color: rgba(255, 0, 0, 0.706);
 }
 .contact {
-  color: chartreuse;
+  color: rgba(255, 0, 0, 0.706);
 }
 .results {
-  color: chartreuse;
+  color: rgba(255, 0, 0, 0.706);
 }
 .history {
-  color: chartreuse;
+  color: rgba(255, 0, 0, 0.706);
 }
 .phone {
   color: rgb(4, 4, 118);
