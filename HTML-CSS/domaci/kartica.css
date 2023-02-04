@@ -15,7 +15,7 @@ body {
   height: 500px;
   background-color: rgb(255, 255, 255);
   margin: 40px 20px;
-  border-radius: 20px 20px 0px 0px;
+  border-radius: 50px 50px 0px 0px;
   line-height: 30px;
   display: inline-block;
   background-color: rgba(223, 149, 74, 0.638);
@@ -38,7 +38,7 @@ body {
 img {
   width: 400px;
   height: 200px;
-  border-radius: 20px 20px 0px 0px;
+  border-radius: 50px 50px 0px 0px;
 }
 .child {
   padding: 20px;
