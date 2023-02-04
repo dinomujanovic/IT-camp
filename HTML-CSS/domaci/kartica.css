@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: darkolivegreen;
+  background-color: rgba(85, 107, 47, 0.784);
   font-family: oswald;
 }
 
@@ -21,10 +21,16 @@ body {
   background-color: rgba(223, 149, 74, 0.638);
 }
 .first:nth-of-type(2) {
-  background-color: burlywood;
+  background-color: rgb(242, 207, 207);
 }
 .first:nth-of-type(3) {
   background-color: rgb(192, 229, 171);
+}
+.first:nth-of-type(4) {
+  background-color: rgba(109, 112, 108, 0.696);
+}
+.first:nth-of-type(6) {
+  background-color: rgba(215, 69, 76, 0.464);
 }
 .first:nth-of-type(5) {
   visibility: hidden;
