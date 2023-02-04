@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: darkolivegreen;
+  font-family: oswald;
+}
+
+.first {
+  width: 400px;
+  height: 500px;
+  background-color: rgb(255, 255, 255);
+  margin: 40px 20px;
+  border-radius: 20px 20px 0px 0px;
+  line-height: 30px;
+  display: inline-block;
+  background-color: rgba(223, 149, 74, 0.638);
+}
+.first:nth-of-type(2) {
+  background-color: burlywood;
+}
+.first:nth-of-type(3) {
+  background-color: rgb(192, 229, 171);
+}
+.first:nth-of-type(5) {
+  visibility: hidden;
+}
+img {
+  width: 400px;
+  height: 200px;
+  border-radius: 20px 20px 0px 0px;
+}
+.child {
+  padding: 20px;
+}
+.first h1 {
+  color: rgb(66, 24, 4);
+}
+
+.first h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: rgb(66, 24, 4);
+}
+
+#cowboy {
+  color: brown;
+}
+#tree {
+  color: darkgreen;
+}
+#couch {
+  color: chocolate;
+}
+#phone {
+  color: blue;
+}
+#healthy {
+  color: rgb(198, 216, 0);
+}
+#rose {
+  color: darkgreen;
+}
+#pulse {
+  color: darkred;
+}
+#protector {
+  color: darkred;
+}
