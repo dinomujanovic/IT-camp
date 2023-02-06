@@ -20,6 +20,13 @@ body {
   display: inline-block;
   background-color: rgba(223, 149, 74, 0.638);
 }
+.first:hover {
+  background-color: rgb(230, 220, 220);
+}
+i {
+  width: 40px;
+  font-size: x-large;
+}
 .first:nth-of-type(2) {
   background-color: rgb(242, 207, 207);
 }
