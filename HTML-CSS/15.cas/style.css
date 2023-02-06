@@ -14,5 +14,5 @@
 }
 /* > se odnosi na onaj paragraf koji je direktno child od odredjenog taga (.main) */
 .main > p {
-  background-color: #c1fb86;
+  background-color: #f7a0f8;
 }
