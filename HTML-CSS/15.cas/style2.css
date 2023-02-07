@@ -6,6 +6,7 @@
 img {
   width: 70%;
   height: 500px;
+  /* float koristimo kada hocemo da smestimo neki kontejner na levu ili desnu stranu, a da se pored njega redjaju i ostali elementi */
   float: left;
   margin-right: 15px;
 }
@@ -17,14 +18,14 @@ img {
   float: left;
   margin-right: 15px;
 }
-
+/* ako su dva kontejneta jedan pored drugog moramo ih rasporediti tako sto cemo jedan staviti na levoj a drugi na desnoj strani */
 .box2 {
   width: 700px;
   height: 350px;
   background-color: blue;
   float: right;
 }
-/* cle */
+/* clear: both koristimo kada hocemo da nam se float ne primenjuje od tog elementaa pa na dalje*/
 p {
   clear: both;
   background-color: yellow;

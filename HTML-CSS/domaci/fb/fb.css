@@ -1,49 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
 * {
   margin: 0px;
   box-sizing: border-box;
 }
 body {
-  background-color: aliceblue;
+  background-color: rgba(214, 214, 216, 0.216);
 }
 
 .header {
-  background-color: rgba(0, 0, 104, 0.711);
+  background-color: #1877f2;
   height: 70px;
   display: flex;
+  font-family: Source Sans Pro;
 }
 i {
   margin-left: 30px;
   margin-top: 10px;
   font-size: 50px;
-  color: rgb(226, 242, 255);
+  color: rgb(254, 254, 254);
 }
 
 .header h1 {
-  color: rgb(226, 242, 255);
+  color: rgb(254, 254, 254);
   margin-left: 10px;
   margin-top: 20px;
   text-transform: lowercase;
 }
 
+.main {
+  float: left;
+  margin-top: 100px;
+  margin-left: 150px;
+}
+
+.main h1 {
+  color: #1877f2;
+  font-size: 40px;
+  font-family: Source Sans Pro;
+  font-weight: bold;
+}
+
+.main p {
+  margin-top: 15px;
+  font-size: large;
+  color: rgb(85, 84, 84);
+  font-family: Source Sans Pro;
+}
+
+.child {
+  margin-top: 20px;
+  background-color: white;
+  width: 170px;
+  height: 200px;
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid rgba(128, 128, 128, 0.227);
+  float: left;
+  font-family: Source Sans Pro;
+}
+
+.child i {
+  color: #1877f2;
+  margin: auto;
+  margin-top: 50px;
+}
+.child2 {
+  margin-left: 20px;
+  text-align: center;
+}
+.child2 p {
+  margin-top: 60px;
+  color: #1877f2;
+}
+.child:hover {
+  box-shadow: 1px 1px 10px 1px rgba(128, 128, 128, 0.532);
+}
+.child img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 170px;
+  height: 150px;
+}
+.child p {
+  font-size: larger;
+  font-family: Source Sans Pro;
+  color: #1877f2;
+}
+
 .login {
   height: 350px;
   width: 400px;
-  background-color: rgba(0, 0, 104, 0.711);
-  margin: 100px 800px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 100px;
+  margin-right: 150px;
   border-radius: 10px;
-  display: inline-block;
-  box-shadow: 10px 10px 10px gray;
+  float: right;
+  box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.301);
+  font-family: Source Sans Pro;
 }
 
 #email {
   margin-left: 20px;
   margin-top: 20px;
-  background-color: rgb(250, 255, 253);
+  background-color: rgb(255, 255, 255);
   height: 50px;
   width: 360px;
   border-radius: 10px;
-  border-color: aliceblue;
-  border-style: none;
+  border: 1px solid rgba(111, 113, 116, 0.313);
   text-indent: 20px;
   font-size: large;
 }
@@ -56,16 +119,22 @@ i {
   margin-left: 20px;
   border-radius: 10px;
   border-style: none;
-  background-color: rgb(3, 167, 36);
-  color: aliceblue;
+  background-color: #1877f2;
+  color: rgb(255, 255, 255);
   font-size: large;
   text-transform: uppercase;
+  font-family: Source Sans Pro;
 }
 .login p {
   text-align: center;
-  color: rgb(124, 207, 237);
+
   margin-top: 10px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a {
+  text-decoration-line: none;
+  color: cornflowerblue;
+  font-family: Source Sans Pro;
 }
 hr {
   margin: 20px;
@@ -79,4 +148,12 @@ hr {
   background-color: rgb(3, 167, 36);
   color: aliceblue;
   font-size: large;
+}
+
+.create {
+  clear: both;
+  text-align: right;
+  margin-right: 190px;
+  margin-top: 480px;
+  font-family: Source Sans Pro;
 }
