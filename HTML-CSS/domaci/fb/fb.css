@@ -35,9 +35,9 @@ i {
 
 .main h1 {
   color: #1877f2;
-  font-size: 40px;
+  font-size: 45px;
   font-family: Source Sans Pro;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 .main p {
@@ -97,6 +97,7 @@ i {
   float: right;
   box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.301);
   font-family: Source Sans Pro;
+  border: 1px solid rgba(128, 128, 128, 0.274);
 }
 
 #email {
