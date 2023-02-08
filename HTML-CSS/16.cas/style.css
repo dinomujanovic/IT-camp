@@ -1,0 +1,55 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.parent {
+  width: 90%;
+  height: 200vh;
+  background-color: #556b2f;
+  margin: 40px auto 0;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.child1 {
+  background-color: chartreuse;
+  height: 130px;
+  /* position: static, je defoultna vrednost pozicioniranja */
+  position: relative;
+  /* dobijamo 4 nova css svojstva: */
+  /* top: ; */
+  /* bottom: ; */
+  /* left: ; */
+  /* right: ; */
+  /* top: 40px; */
+  /* left: 40px; */
+  /* kad odaberemo stranu pomeramo ceo kontejner na neko drugo mesto gurajuci ga preko drugog kontejnera */
+  position: absolute;
+  /* pomera se u odnosu na parenta ako i parentu dodelimo position: relative */
+}
+.child2 {
+  background-color: rgb(14, 63, 6);
+  height: 130px;
+  position: fixed;
+  z-index: 5;
+  /* z-index dajemo kad hocemo da taj element ima vecu prednost od ostalih */
+  /* dostupan nam je kad koristimo position */
+  /* pomera se u odnosu na celu stranicu parent ne utice na njega */
+  /* i ako skrolamo stranicu on ostaje na istom mestu i prati stranicu */
+  /* fixed pomera redosled elemenata na stranici */
+}
+.child3 {
+  background-color: yellow;
+  height: 130px;
+  position: sticky;
+  top: 0px;
+  /* prilikom skrolanja stranice ce biti fiksirana za vrh jer smo dodelili 0px */
+  /* najcesce koristimo sticky za header jer ne pomera druge elemente na stranici */
+}
+.child4 {
+  background-color: rgb(41, 225, 41);
+  height: 130px;
+}
