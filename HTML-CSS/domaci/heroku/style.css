@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #3a2778;
+  position: relative;
+  font-family: Source Sans Pro;
+  height: 1400px;
+}
+
+img {
+  float: inline-start;
+  width: 100%;
+}
+
+h1 {
+  position: absolute;
+  top: 15px;
+  left: 270px;
+  color: white;
+}
+
+p {
+  position: absolute;
+  top: 30px;
+  right: 350px;
+  color: white;
+}
+
+button {
+  position: absolute;
+  top: 20px;
+  right: 270px;
+  background-color: rgba(11, 5, 49, 0.284);
+  color: white;
+  border: 0;
+  height: 40px;
+  width: 70px;
+  border-radius: 10px;
+}
+button:hover {
+  background-color: rgba(11, 5, 49, 0.486);
+}
+
+p:nth-of-type(2) {
+  color: white;
+  position: absolute;
+  top: 100px;
+  left: 500px;
+  font-size: 30px;
+}
+
+.parent {
+  width: 750px;
+  height: 800px;
+  background-color: #f9f9fb;
+  margin: 20px auto 0;
+  border-radius: 10px;
+}
+
+.parent img {
+  height: 50px;
+  width: 750px;
+  border-radius: 10px;
+}
+
+.child1 {
+  height: 100px;
+  width: 300px;
+  margin-top: 20px;
+  margin-left: 50px;
+  color: #383e40;
+}
+
+.child1 h2 {
+  display: inline-block;
+  margin-left: 15px;
+  color: #3a2778a9;
+  margin-bottom: 15px;
+  font-weight: 300;
+}
+
+.child1 i {
+  color: #3a2778a9;
+  font-size: 20px;
+}
+.child2 {
+  height: 100px;
+  width: 300px;
+  margin-top: 50px;
+  margin-left: 50px;
+  color: #383e40;
+}
+
+.child2 h2 {
+  display: inline-block;
+  margin-left: 15px;
+  color: #3a2778a9;
+  margin-bottom: 15px;
+  font-weight: 300;
+}
+
+.child2 i {
+  color: #3a2778a9;
+  font-size: 20px;
+}
+.child3 {
+  height: 100px;
+  width: 300px;
+  margin-top: 50px;
+  margin-left: 50px;
+  color: #383e40;
+}
+
+.child3 h2 {
+  display: inline-block;
+  margin-left: 15px;
+  color: #3a2778a9;
+  margin-bottom: 15px;
+  font-weight: 300;
+}
+
+.child3 i {
+  color: #3a2778a9;
+  font-size: 20px;
+}
+
+hr {
+  width: 250px;
+  margin-left: 70px;
+  margin-top: 50px;
+  opacity: 0.2;
+}
