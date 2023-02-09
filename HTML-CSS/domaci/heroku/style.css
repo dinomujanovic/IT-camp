@@ -30,7 +30,7 @@ p {
   color: white;
 }
 
-button {
+.login {
   position: absolute;
   top: 20px;
   right: 270px;
@@ -42,7 +42,7 @@ button {
   border-radius: 10px;
 }
 button:hover {
-  background-color: rgba(11, 5, 49, 0.486);
+  background-color: rgba(6, 34, 113, 0.8);
 }
 
 p:nth-of-type(2) {
@@ -57,14 +57,14 @@ p:nth-of-type(2) {
   width: 750px;
   height: 800px;
   background-color: #f9f9fb;
-  margin: 20px auto 0;
-  border-radius: 10px;
+  margin: 30px auto 0;
+  border-radius: 5px;
 }
 
 .parent img {
   height: 50px;
   width: 750px;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .child1 {
@@ -142,6 +142,45 @@ hr {
   position: absolute;
   top: 180px;
   left: 720px;
-  border-radius: 10px;
-  box-shadow: 5px 5px 5px 10px #3a27782e;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 10px #3a27780f;
+  padding-top: 30px;
+}
+
+input {
+  padding-left: 10px;
+  height: 40px;
+  width: 290px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  border: 1px solid #383e4037;
+  border-radius: 5px;
+}
+select {
+  height: 40px;
+  width: 290px;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+  border: 1px solid #383e4037;
+  border-radius: 5px;
+  padding-left: 10px;
+  color: #383e40ce;
+}
+
+label {
+  margin-left: 30px;
+  padding-top: 20px;
+}
+
+.acc {
+  margin-top: 30px;
+  margin-left: 30px;
+  height: 40px;
+  width: 290px;
+  background-color: #2b59ce;
+  color: #f9f9fb;
+  border: none;
+  border-radius: 5px;
 }
