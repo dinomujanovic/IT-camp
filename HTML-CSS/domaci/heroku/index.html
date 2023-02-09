@@ -49,5 +49,70 @@
         >
       </div>
     </div>
+    <div class="main">
+      <form action="https://signup.heroku.com/">
+        <label for="name">First name</label>
+        <br />
+        <input type="text" placeholder="First name" required />
+        <br />
+        <label for="name">Last name</label>
+        <br />
+        <input type="text" placeholder="Last name" required />
+        <br />
+        <label for="email">Email adress</label>
+        <br />
+        <input type="email" placeholder="Email adress" required />
+        <br />
+        <label for="text">Company name</label>
+        <br />
+        <input type="text" placeholder="Company name" />
+        <br />
+        <label for="role">Role</label>
+        <br />
+        <select name="role" id="role" placeholder="role" required>
+          <option value="Role">Role</option>
+          <option value="Agency / Partner Developer">
+            Agency / Partner Developer
+          </option>
+          <option value="Hobbyist">Hobbyist</option>
+          <option value="Student">Student</option>
+          <option value="Other">Other</option>
+        </select>
+        <br />
+        <label for="country">Country/Region</label>
+        <br />
+        <select
+          name="country"
+          id="country"
+          placeholder="Country/Region"
+          required
+        >
+          <option value="Country/Region">Country/Region</option>
+          <option value="Serbia">Serbia</option>
+          <option value="Brazil">Brazil</option>
+          <option value="Bosnia">Bosnia</option>
+          <option value="Spain">Spain</option>
+          <option value="France">France</option>
+        </select>
+        <br />
+        <label for="Primary development language"
+          >Primary development language</label
+        >
+        <br />
+        <select
+          name="language"
+          id="language"
+          placeholder="Select a language"
+          required
+        >
+          <option value="Select a language">Select a language</option>
+          <option value="Ruby">Ruby</option>
+          <option value="Python">Python</option>
+          <option value="Java">Java</option>
+          <option value="Scala">Scala</option>
+          <option value="Go">Go</option>
+        </select>
+      </form>
+    </div>
   </body>
 </html>

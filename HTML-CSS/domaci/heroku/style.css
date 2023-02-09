@@ -134,3 +134,14 @@ hr {
   margin-top: 50px;
   opacity: 0.2;
 }
+
+.main {
+  height: 750px;
+  width: 350px;
+  background-color: white;
+  position: absolute;
+  top: 180px;
+  left: 720px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 10px #3a27782e;
+}
