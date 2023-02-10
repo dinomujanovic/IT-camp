@@ -53,15 +53,15 @@
     </div>
     <div class="main">
       <form action="https://signup.heroku.com/" target="_blank">
-        <label for="name">First name</label>
+        <label for="name">First name</label><sup class="stars">*</sup>
         <br />
         <input type="text" placeholder="First name" required />
         <br />
-        <label for="name">Last name</label>
+        <label for="name">Last name</label><sup class="stars">*</sup>
         <br />
         <input type="text" placeholder="Last name" required />
         <br />
-        <label for="email">Email adress</label>
+        <label for="email">Email adress</label><sup class="stars">*</sup>
         <br />
         <input type="email" placeholder="Email adress" required />
         <br />
@@ -69,7 +69,7 @@
         <br />
         <input type="text" placeholder="Company name" />
         <br />
-        <label for="role">Role</label>
+        <label for="role">Role</label><sup class="stars">*</sup>
         <br />
         <select name="role" id="role" placeholder="role" required>
           <option value="Role">Role</option>
@@ -81,7 +81,7 @@
           <option value="Other">Other</option>
         </select>
         <br />
-        <label for="country">Country/Region</label>
+        <label for="country">Country/Region</label><sup class="stars">*</sup>
         <br />
         <select
           name="country"
@@ -99,7 +99,7 @@
         <br />
         <label for="Primary development language"
           >Primary development language</label
-        >
+        ><sup class="stars">*</sup>
         <br />
         <select
           name="language"
@@ -117,6 +117,10 @@
         <br />
         <button type="submit" class="acc">CREATE AN ACCOUNT</button>
       </form>
+      <span>
+        Signing up signifies that you have read and agree to the Terms of
+        Service and our Privacy Policy. Cookie Preferences.
+      </span>
     </div>
   </body>
 </html>

@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Zeyada", cursive;
+}
+
+.header {
+  width: 100vw;
+  height: 15vh;
+  background-color: darkolivegreen;
+  position: relative;
+}
+
+.header img {
+  width: 5vw;
+  height: 10vh;
+  float: left;
+  position: absolute;
+  bottom: 15px;
+  left: 20px;
+}
+
+.links {
+  float: right;
+  clear: both;
+  position: absolute;
+  top: 35px;
+  right: 50px;
+}
+
+a {
+  font-size: 22px;
+  margin: 10px;
+  background-color: #7fff00;
+  padding: 12px;
+  border-radius: 10px;
+  /* pomocu decoration macinjemo liniju za linkove ispod reci */
+  text-decoration: none;
+  color: rgb(71, 44, 11);
+}
+
+a:hover {
+  background-color: #80ff0083;
+  color: rgb(71, 44, 11);
+}
+/* visited znaci da se promene stilovi na vec posecene linkove */
+a:visited {
+  color: crimson;
+}
+/* active znaci da se primenjuju stilovi u trenutku kada pritisnemo link */
+a:active {
+  color: rgb(26, 255, 0);
+}
+
+p {
+  font-size: larger;
+  /* word-spacing: dodaje nam razmak izmedju reci */
+  /* letter-spacing: dodaje nam razmak izmedju slova */
+  /* line-height: dodaje nam razmak izmedju redova */
+}
+
+i {
+  background-color: #7fff00;
+  color: crimson;
+  padding: 10px;
+  /* border radius 50% nam daje krug */
+  border-radius: 50%;
+}
+
+button {
+  background-color: #7fff00;
+  color: crimson;
+  padding: 15px;
+  border: 1px solid crimson;
+  border-radius: 6px;
+  /* menjamo cursor kada predjemo misem preko buttona */
+  cursor: pointer;
+}
+.para {
+  text-align: center;
+}
