@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.header {
+  height: 60px;
+  width: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.104);
+  position: relative;
+  display: flex;
+}
+
+.header img {
+  height: 34px;
+  width: 91px;
+  float: left;
+  margin-top: 10px;
+  margin-left: 20px;
+  position: absolute;
+}
+
+.categories {
+  margin-top: 20px;
+  margin-left: 130px;
+  position: absolute;
+  text-decoration: none;
+  color: rgb(57, 56, 56);
+  font-size: small;
+}
+
+input {
+  width: 650px;
+  height: 40px;
+  position: relative;
+  margin-left: 220px;
+  margin-top: 10px;
+  border: 1px solid #1c1d1f;
+  border-radius: 9999px;
+  background-color: #f7f9fa;
+  text-indent: 40px;
+}
+
+#lupa {
+  position: absolute;
+  top: 22px;
+  left: 235px;
+  color: #434444;
+  cursor: wait;
+}
+
+.links {
+  position: absolute;
+  right: 220px;
+  margin-top: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(57, 56, 56);
+  font-size: small;
+  margin-left: 15px;
+}
+a:active {
+  color: blueviolet;
+}
+
+.icons {
+  position: absolute;
+  right: 100px;
+  top: 20px;
+  font-size: larger;
+  word-spacing: 10px;
+  margin-left: 20px;
+}
+
+.header img:nth-of-type(2) {
+  border-radius: 50%;
+  position: absolute;
+  right: 50px;
+  top: 5px;
+  width: 30px;
+  height: 30px;
+}
