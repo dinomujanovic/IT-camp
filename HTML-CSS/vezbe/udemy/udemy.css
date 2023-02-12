@@ -45,6 +45,9 @@ input {
   background-color: #f7f9fa;
   text-indent: 40px;
 }
+input:active {
+  border-color: bluevioleta;
+}
 
 #lupa {
   position: absolute;
@@ -56,7 +59,7 @@ input {
 
 .links {
   position: absolute;
-  right: 220px;
+  right: 200px;
   margin-top: 20px;
 }
 
@@ -67,6 +70,9 @@ a {
   margin-left: 15px;
 }
 a:active {
+  color: blueviolet;
+}
+a:hover {
   color: blueviolet;
 }
 
@@ -124,32 +130,179 @@ h2 {
   margin-top: 30px;
   margin-left: 200px;
   font-family: "Lora", serif;
-}
-
-#dd {
-  text-decoration: underline;
-  color: blueviolet;
-  margin-left: 1120px;
-
-  font-weight: bolder;
+  font-size: 28px;
 }
 
 .card {
-  clear: both;
   height: 120px;
   width: 320px;
   border: 1px solid rgba(128, 128, 128, 0.338);
   display: inline-block;
-  margin-left: 10px;
-  margin-top: 20px;
+
   font-size: small;
 }
 
-.first {
-  margin-left: 200px;
-}
 .first img {
+  width: 100px;
   height: 110px;
-  width: 110px;
-  display: flex;
+}
+.second img {
+  width: 100px;
+  height: 120px;
+}
+.third img {
+  width: 100px;
+  height: 120px;
+  opacity: 0.8;
+}
+
+.first {
+  position: relative;
+  top: 20px;
+  left: 200px;
+}
+.second {
+  position: absolute;
+  top: 462px;
+  left: 535px;
+}
+.third {
+  position: absolute;
+  top: 462px;
+  left: 870px;
+}
+
+.first span {
+  position: absolute;
+  top: 20px;
+  left: 120px;
+  font-weight: bold;
+}
+.first span:nth-of-type(2) {
+  position: absolute;
+  top: 50px;
+  left: 120px;
+  font-weight: normal;
+}
+.first span:nth-of-type(3) {
+  position: absolute;
+  top: 5px;
+  left: 300px;
+  font-size: larger;
+  font-weight: lighter;
+  cursor: pointer;
+}
+
+.first a {
+  color: blueviolet;
+  font-weight: bold;
+}
+
+.second span:nth-of-type(1) {
+  position: absolute;
+  top: 15px;
+  left: 110px;
+  font-size: smaller;
+  color: #434444;
+}
+.second span:nth-of-type(2) {
+  position: absolute;
+  top: 35px;
+  left: 110px;
+  font-size: small;
+  font-weight: bold;
+}
+.second span:nth-of-type(3) {
+  position: absolute;
+  top: 85px;
+  left: 110px;
+  font-size: smaller;
+  color: #434444;
+}
+.third span:nth-of-type(1) {
+  position: absolute;
+  top: 15px;
+  left: 110px;
+  font-size: smaller;
+  color: #434444;
+}
+.third span:nth-of-type(2) {
+  position: absolute;
+  top: 35px;
+  left: 110px;
+  font-size: small;
+  font-weight: bold;
+}
+.third span:nth-of-type(3) {
+  position: absolute;
+  top: 85px;
+  left: 110px;
+  font-size: smaller;
+  color: #434444;
+}
+.second hr {
+  position: absolute;
+  width: 190px;
+  left: 100px;
+  top: 113px;
+  height: 7px;
+  background-color: blueviolet;
+}
+.second hr:nth-of-type(2) {
+  position: absolute;
+  width: 32px;
+  left: 288px;
+  top: 113px;
+  height: 7px;
+  background-color: rgba(118, 117, 119, 0.206);
+  border: 0;
+}
+
+.second i {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.618);
+  width: 100px;
+  height: 120px;
+  left: 0;
+  padding: 42px 32px;
+  color: #ffffff;
+  font-size: 40px;
+  cursor: pointer;
+}
+.third i {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.618);
+  width: 100px;
+  height: 120px;
+  left: 0;
+  padding: 42px 32px;
+  color: #ffffff;
+  font-size: 40px;
+  cursor: pointer;
+}
+.third hr {
+  position: absolute;
+  width: 20px;
+  left: 100px;
+  top: 113px;
+  height: 7px;
+  background-color: blueviolet;
+}
+.third hr:nth-of-type(2) {
+  position: absolute;
+  width: 200px;
+  left: 120px;
+  top: 113px;
+  height: 7px;
+  background-color: rgba(118, 117, 119, 0.206);
+  border: 0;
+}
+
+.klasa {
+  position: absolute;
+  right: 180px;
+  top: 420px;
+  color: blueviolet;
+  text-decoration: underline;
+  font-weight: bold;
 }
