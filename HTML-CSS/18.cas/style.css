@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Source Sans Pro;
+}
+
+header {
+  height: 70px;
+  background-color: aquamarine;
+}
+
+header img {
+  width: 70px;
+  height: 70px;
+}

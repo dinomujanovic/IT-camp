@@ -306,3 +306,7 @@ h2 {
   text-decoration: underline;
   font-weight: bold;
 }
+
+.fa-heart:hover {
+  color: red;
+}
