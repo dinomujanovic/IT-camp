@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kanit", sans-serif;
+}
+
+header {
+  height: 17vh;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid black;
+}
+
+.firsth {
+  height: 6vh;
+  background-color: #131212;
+  color: white;
+  padding-left: 100px;
+  padding-top: 10px;
+}
+
+.firsth span {
+  margin-right: 20px;
+  margin-left: 10px;
+}
+
+.firsth i {
+  color: #ca0303;
+}
+
+#fb {
+  margin-left: 600px;
+  color: white;
+  font-size: large;
+}
+#fb:hover {
+  color: #483d8b;
+}
+
+#instagram {
+  margin-left: 20px;
+  color: white;
+  font-size: large;
+}
+
+#instagram:hover {
+  color: orangered;
+}
+
+header img {
+  height: 11vh;
+  margin-left: 50px;
+}
