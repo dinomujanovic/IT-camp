@@ -23,7 +23,7 @@ body {
   /* justify-content: flex-end; redja sa desne strane */
   /* justify-content: space-between; stvara prostor izmedju kontejnera jedan sa desne drugi sa leve*/
   justify-content: space-evenly; /*pravi prostore jednake sa svih strana */
-
+  /* justify-content: space-around; stvara veci prostor izmedju elemenata  */
   /* Vertikalno poravnjanje: */
   /* align-items: flex-start; defaultno stanje */
   align-items: center;
