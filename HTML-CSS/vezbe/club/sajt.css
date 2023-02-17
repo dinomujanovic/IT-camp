@@ -13,6 +13,7 @@ header {
   height: 17vh;
   background-color: rgb(255, 255, 255);
   border-bottom: 1px solid black;
+  width: 100%;
 }
 
 .firsth {
@@ -33,7 +34,7 @@ header {
 }
 
 #fb {
-  margin-left: 600px;
+  margin-left: 700px;
   color: white;
   font-size: large;
 }
@@ -51,7 +52,16 @@ header {
   color: orangered;
 }
 
-header img {
+.secondh img {
   height: 11vh;
-  margin-left: 50px;
+  margin-left: 20px;
+}
+
+.secondh {
+  display: flex;
+}
+
+.secondh span:nth-of-type(1) {
+  margin-top: 20px;
+  font-weight: bolder;
 }

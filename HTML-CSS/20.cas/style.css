@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kanit", sans-serif;
+}
+.parent {
+  margin: auto;
+  width: 60%;
+  height: 80vh;
+  background-color: #556b2f;
+  display: flex;
+  /* flex-wrap: nowrap; defaultna vrednost */
+  /* flex-wrap: wrap; redja elemente jedan do drugog i postuje njihovu sirinu nece da ih smanji ako ih ima vise vec ce da ih prebaci u novom redu */
+  align-items: flex-start;
+  justify-content: flex-start;
+  /* flex-wrap: wrap-reverse; redja elemente sa dna pa na gore */
+  gap: 15px;
+  /* gap nam sluzi za dodavanje prostora izmedju svih elemenata */
+  /* column-gap dodajemo prostor izmedju kolona isti efekat kao gap. */
+  /* row-gap dodajemo prostor izmedju redova nema smisla koristiti kod flex jer display flex ima samo jedan red */
+}
+
+.box {
+  /* flex-basis: 250px; pisemo umesto width. ISTI JE EFEKAT */
+  flex-basis: 150px;
+  height: 120px;
+}
+
+.first {
+  background-color: chartreuse;
+  /* flex-grow: 2; uzima dve celine sirine */
+  /* flex-shrink: 3; neka se tri puta vise smanjuje u odnosu na druge kada suzavamo ekran */
+  /* treba imati definisanu sirinu childa kako bi svojstvo doslo do izrazaja */
+  /* Order svojstvo nam sluzi za redjanje elemenata na stranici po nasoj zelji. MENJAMO HTML POREDAK ELEMENATA */
+  order: 2;
+}
+
+.second {
+  background-color: rgb(15, 138, 1);
+  /* flex-grow: 1; uzima jednu celinu sirine treba definisati i na ostalim child elemntima */
+  /* flex-shrink: 1; */
+  order: 3;
+}
+
+.third {
+  background-color: rgb(23, 45, 1);
+  /* flex-grow: 1; */
+  /* flex-shrink: 1; */
+  order: 1;
+}
