@@ -1,12 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Play&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap");
 * {
   margin: 0px;
   box-sizing: border-box;
 }
 
 body {
-  font-family: "Kanit", sans-serif;
+  font-family: "Play", sans-serif;
+  background-color: maroon;
+  height: 2000px;
 }
 
 header {
@@ -14,13 +16,15 @@ header {
   background-color: rgb(255, 255, 255);
   border-bottom: 1px solid black;
   width: 100%;
+  position: sticky;
+  top: 0px;
 }
 
 .firsth {
   height: 6vh;
   background-color: #131212;
   color: white;
-  padding-left: 100px;
+  padding-left: 140px;
   padding-top: 10px;
 }
 
@@ -34,7 +38,7 @@ header {
 }
 
 #fb {
-  margin-left: 700px;
+  margin-left: 650px;
   color: white;
   font-size: large;
 }
@@ -54,14 +58,59 @@ header {
 
 .secondh img {
   height: 11vh;
-  margin-left: 20px;
+  margin-left: 40px;
 }
-
 .secondh {
+  position: relative;
   display: flex;
+  justify-content: space-between;
+}
+.secondh span:nth-of-type(1) {
+  position: absolute;
+  top: 15px;
+  left: 220px;
+  font-weight: bolder;
+  font-size: x-large;
+  text-shadow: 1px 1px 1px#ca0303;
+}
+.secondh span:nth-of-type(2) {
+  position: absolute;
+  top: 40px;
+  left: 310px;
+  font-size: larger;
+  text-shadow: 1px 1px 1px#ca0303;
 }
 
-.secondh span:nth-of-type(1) {
-  margin-top: 20px;
-  font-weight: bolder;
+.links {
+  display: flex;
+  align-items: center;
+  padding-right: 100px;
+  gap: 20px;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: bold;
+}
+a:hover {
+  color: #ca0303;
+}
+button {
+  height: 40px;
+  border-radius: 20px;
+  border: 0px;
+  background-color: #ca0303;
+  color: #131212;
+  width: 100px;
+  margin: 0px 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #540202;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: #131212;
+  font-size: large;
 }
