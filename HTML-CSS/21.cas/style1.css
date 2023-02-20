@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.parent {
+  margin: auto;
+  background-color: chartreuse;
+  width: 500px;
+  height: 500px;
+}
+
+.child {
+  width: 50%;
+  height: 50%;
+  background-color: darkolivegreen;
+  transition: transform 1s ease-in-out 1s;
+  /* transition-property: transform; na koji se property odnosi */
+  /* transition-duration: 1s; trajanje transformacije */
+  /* transition-timing-function: ease-in-out; na koji ce se nacin izvrsiti transformacija */
+  /* transition-delay: 1s; odlaganje transformacije kada prodjemo misem preko njega */
+}
+
+.parent:hover .child {
+  /* transform: translateY(100%); pomera po vertikalnoj osi */
+  transform: translateX(100%); /*pomera po horizontalnoj osi */
+  /* transform: translate(100%,100%); pomera u obe ose istovremeno */
+}
+
+/* .child:hover { */
+/* transform: scale(1.5);povecava element proporcionalno na osnovu unete vrednosti */
+/* transform: scale(0.5);smanjuje element */
+/* transform: scale(0.5, 1.5); prva se odnosi na sirinu, druga na visinu */

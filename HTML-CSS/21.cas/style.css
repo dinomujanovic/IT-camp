@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Kanit", sans-serif;
+}
+.parent {
+  margin: auto;
+  width: 60%;
+  height: 80vh;
+  background-color: #556b2f;
+  display: flex;
+  flex-direction: column;
+  /* Horizontalno poravnjanje: */
+  /* align-items: center */
+  /* align-items: flex-end; */
+  /* align-items: flex-start; */
+
+  /* Vertikalno poravnjanje: */
+  /* justify-content: flex-end; */
+  /* justify-content: space-between; */
+}
+
+.box {
+  width: 150px;
+  height: 120px;
+}
+
+.first {
+  background-color: chartreuse;
+}
+
+.second {
+  background-color: rgb(15, 138, 1);
+}
+
+.third {
+  background-color: rgb(23, 45, 1);
+}
