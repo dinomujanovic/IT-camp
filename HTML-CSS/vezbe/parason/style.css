@@ -23,7 +23,7 @@ header h1 {
   font-family: "Quicksand", sans-serif;
 }
 header h1:hover {
-  color: #86a1b9;
+  color: orangered;
   cursor: pointer;
 }
 
@@ -32,6 +32,9 @@ header h1:hover {
   gap: 20px;
   align-items: center;
   font-family: "Quicksand", sans-serif;
+}
+a:hover {
+  color: orangered;
 }
 
 a {
@@ -49,7 +52,8 @@ button {
 }
 
 button:hover {
-  background-color: #86a1b9;
+  background-color: orangered;
+  color: #f9f6f6;
 }
 .parent {
   background-color: #f9f6f6;
@@ -170,7 +174,8 @@ button:hover {
   border: 1px solid black;
 }
 .card button:hover {
-  background-color: #86a1b9;
+  background-color: orangered;
+  color: #f9f6f6;
 }
 .icons i {
   margin: 10px;
