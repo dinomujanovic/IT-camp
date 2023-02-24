@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff8dc;
+}
+
+.parent {
+  background-color: #deb887;
+  margin: auto;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+}
+
+@media (min-width: 501px) and (max-width: 681px) {
+  .parent {
+    background-color: #220945;
+  }
+}
+/* za velicinu tableta unosimo i minimalnu i maksimalnu vrednost */
+@media (max-width: 500px) {
+  .parent {
+    background-color: #dabfff;
+  }
+}
+/* za velicinu mobilnih telefona koristimo samo maksimalnu velicinu */
+
+/* @media (orientation: landscape) { */
+/* nam sluzi za ekrane cija je veca sirina nego visina */
+/* @media (orientation: portrait) 
+za ekrane cija je veca visina nego sirina */
