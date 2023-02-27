@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.parent {
+  width: 800px;
+  /* height: 1000px; */
+  background-color: #a4fadd;
+  margin: auto;
+  display: grid;
+  /* Grid svojstvo nam definise koliko cemo imati kolona i redova i koja ce im biti sirina i visina */
+  /* grid-template-columns: 200px 150px; */
+  /* grid-templete-columns redja elemente u kolonu */
+  /* prva vrednost je prva kolona, druga vrednost druga kolona itd */
+  /* grid-template-columns: 1fr 1fr 2fr; vrednost fr popunjava celu sirinu parenta idto kao flex wrap */
+  grid-template-columns: repeat(
+    3,
+    200px
+  ); /*prva vrednost je broj kolona, a druga koliko ce svaka kolona da ima sirinu*/
+  /* grid-template-rows: 200px 150px; */
+  /* redja elementa u redove */
+  /* grid-auto-rows: 150px; */
+  grid-auto-rows: minmax(180px, auto);
+  /* minmax(180px, auto) prvi prestavlja minimalnu visinu, a drugi maksimalnu visinu reda, u slucaju potrebe za povecavanjem*/
+  grid-row-gap: 15px;
+  grid-column-gap: 15px;
+  /* razmak izmedju redova i kolona posebno, a grid-gap razmak izmedju redova i kolona podjednak */
+
+  grid-template-areas:
+    "header header desni"
+    "prvi drugi treci"
+    "cetvrti peti treci";
+}
+
+.child {
+  /* width: 150px; */
+  /* height: 150px; */
+}
+
+.first {
+  background-color: #7fff00;
+  grid-area: header;
+}
+.second {
+  background-color: #7fff00;
+  grid-area: desni;
+}
+.third {
+  background-color: #7fff00;
+  grid-area: prvi;
+}
+.fourth {
+  background-color: #7fff00;
+  grid-area: drugi;
+}
+.fifth {
+  background-color: #7fff00;
+  grid-area: treci;
+}
+.sixth {
+  background-color: #7fff00;
+  grid-area: cetvrti;
+}
+.seventh {
+  background-color: #7fff00;
+  grid-area: peti;
+}
