@@ -262,7 +262,7 @@ header {
   width: 100%;
   height: 55px;
   background-color: #27272b;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  /* border-bottom: 1px solid rgba(255, 255, 255, 0.06); */
   display: flex;
 }
 
@@ -354,4 +354,102 @@ header {
 .mainheader3 span:nth-of-type(3) {
   color: grey;
   cursor: not-allowed;
+}
+
+.main {
+  width: 100%;
+  height: 500px;
+  display: flex;
+}
+
+.main1 {
+  border-right: 2px solid white;
+  width: 32%;
+  height: 500px;
+}
+.main1child1 {
+  background-color: #27272b;
+  width: 100%;
+  height: 7%;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  color: #ffffff9f;
+  font-size: small;
+  gap: 5px;
+}
+.main1child1:hover {
+  background-color: rgba(5, 5, 46, 0.41);
+  cursor: pointer;
+}
+.main1child2:hover {
+  background-color: rgba(5, 5, 46, 0.41);
+  cursor: pointer;
+}
+.main1child1 span:nth-of-type(1) {
+  color: darkgreen;
+  font-weight: bold;
+}
+.main1child2 {
+  background-color: #27272b;
+  width: 100%;
+  height: 7%;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  color: #ffffff9f;
+  font-size: small;
+  gap: 5px;
+}
+.main1child2 span:nth-of-type(1) {
+  color: darkgreen;
+  font-weight: bold;
+}
+.main2 {
+  border-right: 2px solid white;
+  width: 32%;
+  height: 500px;
+}
+.main3 {
+  height: 500px;
+  width: 36%;
+}
+
+.main2child1 {
+  color: rgba(255, 255, 255, 0.835);
+  padding: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.main2child2 {
+  color: #ffffffc7;
+  padding-top: 20px;
+  padding-left: 20px;
+  font-size: 13px;
+  width: 100%;
+  height: 100px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.main2child2 span:nth-of-type(2) {
+  background-color: #27272b;
+  margin-left: 40px;
+  padding-right: 180px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid rgba(128, 128, 128, 0.219);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.main2child2 span:nth-of-type(2):hover {
+  border: 1px solid #0d93f2;
+}
+.main2child2 p {
+  color: #0d93f2;
+  margin-top: 15px;
+  margin-left: 122px;
 }
