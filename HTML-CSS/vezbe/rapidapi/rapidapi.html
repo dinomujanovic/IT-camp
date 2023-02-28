@@ -187,7 +187,113 @@
           <p>OPTIONAL</p>
         </div>
       </div>
-      <div class="main3"></div>
+      <div class="main3">
+        <div class="main3child1">
+          <span>(Node.js) Axios</span>
+          <i class="fa-solid fa-chevron-down"></i>
+          <i class="fa-regular fa-paste"></i>
+          <span>Copy Code</span>
+        </div>
+        <div class="main3child2">
+          <span style="color: #96cbfe">const</span>
+          <span style="color: #4a90e2">axios</span>
+          <span>=</span>
+          <span style="color: #dad085">require</span>
+          <span>(</span>
+          <span style="color: #a8ff60">"axios"</span>
+          <span>)</span>
+          <span>;</span>
+          <br />
+          <br />
+
+          <span style="color: #96cbfe">const</span>
+          <span style="color: #4a90e2">options</span>
+          <span>=</span>
+          <span>{</span>
+          <br />
+
+          <span style="color: #4a90e2; padding-left: 15px">method</span>
+          <span style="margin-left: -5px">:</span>
+          <span style="color: #a8ff60">'GET'</span>
+          <span>,</span>
+          <br />
+          <span style="color: #4a90e2; padding-left: 15px">url</span>
+          <span style="margin-left: -5px">:</span>
+          <span style="color: #a8ff60"
+            >'https://worldometer-covid-19.p.rapidapi.com/GetCountries'</span
+          >
+          <span style="margin-left: -5px">,</span>
+          <br />
+          <span style="color: #4a90e2; padding-left: 15px">params</span>
+          <span style="margin-left: -5px">:</span>
+          <span>{</span>
+          <span style="color: #4a90e2; margin-left: -5px">sorted</span>
+          <span style="margin-left: -5px">:</span>
+          <span style="color: #a8ff60">'true'</span>
+          <span style="margin-left: -5px">}</span>
+          <span style="margin-left: -5px">,</span>
+          <br />
+          <span style="color: #4a90e2; padding-left: 15px">headers</span>
+          <span style="margin-left: -5px">:</span>
+          <span>{</span>
+          <br />
+          <span style="color: #a8ff60; padding-left: 30px"
+            >'X-RapidAPI-Key'</span
+          >
+          <span style="margin-left: -5px">:</span>
+          <span style="color: #a8ff60">'SIGN-UP-FOR-KEY'</span>
+          <span style="margin-left: -5px">,</span>
+          <br />
+          <span style="color: #a8ff60; padding-left: 30px"
+            >'X-RapidAPI-Host'</span
+          >
+          <span style="margin-left: -5px">:</span>
+          <span style="color: #a8ff60"
+            >'worldometer-covid-19.p.rapidapi.com'</span
+          >
+          <br />
+          <span style="padding-left: 10px">}</span>
+          <br />
+          <span>};</span>
+          <br /><br />
+          <span style="color: #4a90e2">axios</span>
+          <span style="color: #dad085; margin-left: -5px">.request</span>
+          <span style="margin-left: -5px">(</span>
+          <span style="color: #4a90e2; margin-left: -5px">options</span>
+          <span style="margin-left: -5px">)</span>
+          <span style="color: #dad085; margin-left: -5px">.then</span>
+          <span style="margin-left: -5px">(</span>
+          <span style="color: #96cbfe; margin-left: -5px">function</span>
+          <span>(</span>
+          <span style="color: #4a90e2; margin-left: -5px">response</span>
+          <span style="margin-left: -5px">)</span>
+          <span>{</span>
+          <br />
+          <span style="color: #dad085; padding-left: 15px">console.log</span>
+          <span style="margin-left: -5px">(</span>
+          <span style="color: #4a90e2; margin-left: -5px">response.data</span>
+          <span style="margin-left: -5px">);</span>
+          <br />
+          <span>}).</span>
+          <span style="color: #dad085; margin-left: -5px">catch</span>
+          <span style="margin-left: -5px">(</span>
+          <span style="color: #96cbfe; margin-left: -5px">function</span>
+          <span>(</span>
+          <span style="color: #4a90e2; margin-left: -5px">error</span>
+          <span style="margin-left: -5px">)</span>
+          <span>{</span>
+          <br />
+          <span style="color: #dad085; padding-left: 15px">console.error</span>
+          <span style="margin-left: -5px">(</span>
+          <span style="color: #4a90e2; margin-left: -5px">error</span>
+          <span style="margin-left: -5px">);</span>
+          <br />
+          <span>});</span>
+        </div>
+      </div>
+    </div>
+    <div class="main4">
+      <p>Rating: 5 - Votes: 1</p>
     </div>
   </body>
 </html>
