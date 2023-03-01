@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.parent {
+  width: 800px;
+  /* height: 1000px; */
+  background-color: #a4fadd;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  grid-auto-rows: minmax(180px, auto);
+  grid-row-gap: 15px;
+  grid-column-gap: 15px;
+}
+
+.child {
+  /* width: 150px; */
+  /* height: 150px; */
+}
+
+.first {
+  background-color: #7fff00;
+  /* Spajanje kolona preko 2 css svojstva */
+  /* grid-column-start: 1;
+  grid-column-end: 3; */
+  /* Spajanje kolona preko jednog css svojstva */
+  grid-column: 1/3;
+}
+.second {
+  background-color: #511e05;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.third {
+  background-color: #0d6e17;
+}
+.fourth {
+  background-color: #7fff00;
+}
+.fifth {
+  background-color: #a25e05;
+  /* -1 dodajemo kada zelimo da nam element zauzme ceo red do kraja */
+  grid-column: 1/-1;
+}
+.sixth {
+  background-color: #1e3b01;
+  /* Spajanje redova i kolona se moze izvrsiti i preko span dodajuci broj koliko zelimo spojiti kolona */
+  grid-column: span 2;
+}
+.seventh {
+  background-color: #717b02;
+}

@@ -624,4 +624,38 @@ header {
   justify-content: flex-end;
   color: white;
   padding-right: 60px;
+  font-size: 14px;
+}
+
+footer {
+  background-color: #133154;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-child1 {
+  height: 40px;
+  width: 90%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.348);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffffc7;
+  font-size: 14px;
+}
+.footer-child2 {
+  height: 40px;
+  width: 90%;
+  display: flex;
+
+  align-items: center;
+  color: #ffffffc7;
+  font-size: 14px;
+}
+.footer-child2 p:nth-of-type(2) {
+  margin-left: 50px;
+  word-spacing: 10px;
 }
