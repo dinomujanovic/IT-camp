@@ -63,3 +63,74 @@ console.log(a);
 // pored osnovne namene za sabiranje brojeva + operator sluzi za spajanje stringova:
 
 // sabiranje broja i stringa nam daje string
+
+
+// 4. operatori poredjenja:
+
+// == proverava da li su jednake vrednosti dve strane 
+
+console.log(5 == 5);
+console.log(5 == "5"); // imaju istu vrednost ali im je razlicit tip
+console.log("leva" == "desna");
+
+// === proverava da li su jednaki i tip i vrednost
+
+console.log(5 === "5");
+console.log(10 === 10);
+
+// != proverava razlicitost leve i desne strane
+
+console.log(5 != "5");
+console.log(5 != 4);
+
+// !== proverava razlicitost tipa ili vrednosti leve i desne strane
+
+console.log(5 !== "5");
+console.log("sreda" !== "Sreda");
+
+// > vece
+
+// < manje
+
+// >= vece ili jednako
+
+// <= manje ili jednako 
+
+// ?  ternary operator
+
+const isSunny = false;
+
+const doINeedSunglasses = isSunny ? "da" : "ne";
+console.log(doINeedSunglasses);
+
+// 5. logicki operatori:
+
+// && logicko i - kada moraju biti zadovoljeni svi poduslovi 
+
+console.log(5 === "5" && 4 <= 6); // false 
+console.log(5 == "5" && 4 <= 6); // true
+
+// || logicko ili - kada je dovoljno da bar jedan uslov bude zadovoljen
+
+console.log(5 === "5" || "sreda" === "Sreda"); // false
+console.log(5 == "5" || "sreda" === "Sreda"); // true
+
+// ! logicko not - Vraca boolean, koji ce da bude suprotne vrednosti od promenljive 
+
+console.log(!isSunny); //bice true, jer nam je prethodna vrednost bila false
+
+// 6. tipovni operatori:
+
+// typeof - operator za ispitivanje tipa promenljive 
+console.log(typeof 123);
+
+// instanceof - operator za ispitivanje da li neka promenljiva pripada odredjenom tipu 
+
+console.log(123 instanceof Object);
+console.log(typeof [1,2,3] ) // vraca object
+console.log([1,2,3] instanceof Array);
+
+
+
+
+
