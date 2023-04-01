@@ -11,13 +11,13 @@ if ("prvi uslov") {
 // ako je broj godina >= 18 
 // neka se ispise poruka "punoletni ste"
 
-const brojGodina = 25 
+// const brojGodina = 25 
 
-if (brojGodina >= 18) {
-   console.log("punoletni ste")
-} else {
-    console.log("maloletni ste")
-}
+// if (brojGodina >= 18) {
+//    console.log("punoletni ste")
+// } else {
+//     console.log("maloletni ste")
+// }
 
 // 2. zadatak:
 // Na osnovu dve promenljive x i y napisati program koji izracunava i stampa kolicnik x/y
@@ -38,3 +38,16 @@ console.log("deljenje je nemoguce")
 // ako je broj godina izmedju 12(ukljucuje) i 18(ne ukljucuje): vi ste maloletni
 // ako je broj godina izmedju 18(ukljucuje) i 40(ne ukljucuje): vi ste punoletni
 //  ako je broj godina veci ili jednak 40: vi ste zrela osoba
+
+const brojGodina = 25;
+
+if (brojGodina < 12) {
+    console.log("vi ste decijeg doba");
+} else if (brojGodina >= 12 && brojGodina < 18) {
+    console.log("vi ste maloletni");
+} 
+ else if (brojGodina >= 18 && brojGodina < 40) {
+    console.log("vi ste punoletni");
+} else {
+    console.log("vi ste zrela osoba");
+}
