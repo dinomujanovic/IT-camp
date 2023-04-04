@@ -89,7 +89,7 @@ set = new Set(["Asija", "Melida", "Dino", 19, 31, 25, "Dino"]);
 // svako novo pojavljivanje elemenata u setu se nece primeniti.
 console.log(set);
 
-// Map - struktura podataka za skladistenje vise vrednosti i slicna je objektu. Sintaksa za pravljenje mape je:
+// 4. Map - struktura podataka za skladistenje vise vrednosti i slicna je objektu. Sintaksa za pravljenje mape je:
 
 map = new Map([
   ["banane", "160"][("jagode", "260")][("kruske", "360")][("ananas", "460")],

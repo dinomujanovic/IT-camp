@@ -90,4 +90,29 @@ for (let i = 6; i < 15; i++) {
 // 2. ispisati sve brojeve od 50 do 100 deljivih sa 5
 // 3. suma neparnih brojeva od 10 do 20 
 
+//1. zadatak
+for (let i = 1; i < 21; i += 2) {
+    console.log(i)
+}
 
+for (let i = 1; i <=20; i += 1) {
+    if (i % 2 === 0) {
+        continue;
+    } else {
+        console.log(i)
+    }
+}
+
+// 2. zadatak
+
+for (let i = 50; i <= 100; i += 1) {
+    if (i % 5 === 0) {
+        console.log(i)
+    }
+}
+
+// 3. zadatak
+
+for (let i = 11; i <= 19; i += 2) {
+    console.log(i)
+}
