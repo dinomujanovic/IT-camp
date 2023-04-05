@@ -113,6 +113,9 @@ for (let i = 50; i <= 100; i += 1) {
 
 // 3. zadatak
 
-for (let i = 11; i <= 19; i += 2) {
-    console.log(i)
+let zbir = 0 
+for (let i = 11; i <= 19; i += 2){
+    zbir += i 
 }
+    console.log(i)
+
