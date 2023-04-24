@@ -64,3 +64,6 @@ console.log(brojBrojeva);
 for (let i = 10; i >= 1; i--) {
 console.log(i);
 }
+
+// 3. izracunati aritmeticku sredinu brojeva koji su deljivi sa 3
+// iteracija se vrsi od 3 do 17
