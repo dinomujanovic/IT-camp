@@ -22,4 +22,6 @@ const broj = +prompt("unesite neki broj")
 let i = 1
 while ( i <= broj){
     console.log( i ** 2)
+    i++
 }
+
